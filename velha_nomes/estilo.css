@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    background-color: rgb(211, 204, 204);
+
+}
+
+main{
+    display: flex;
+    zoom: 0.8
+}
+
+#bloco1{
+
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+flex-direction: column;
+
+}
+#bloco2{
+
+    width: 70%;
+    display: flex;
+    
+      
+}
+
+#tabela{
+
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#resultado{
+    padding-top: 20%;
+    width: 30%;
+    height: 70%;
+
+}
+
+#valor1,
+#valor2,
+#valor3,
+#valor4,
+#valor5,
+#valor6,
+#valor7,
+#valor8,
+#valor9
+{
+margin-top: 20px;
+width: 200px;
+height: 40px;
+text-align: center;
+border: 2px solid #ccc;
+border-radius: 4px;
+
+
+}
+
+#line1,
+#line2,
+#line3{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    
+
+
+}
+
+
+
+
+
+.quadrado {
+   
+    width: 70px;
+    height: 70px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: black;
+    background-color: gray;
+}
+
+.quadrado #conteudo{
+    font-size: 20px;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: gray;
+    cursor: pointer;
+}
